@@ -36,7 +36,6 @@ pip install selenium pandas openpyxl
 ```
 eba/
 ├── eba_basit.py              # Ana script (basit versiyon)
-├── from selenium import webdriver.py  # Tam özellikli versiyon
 ├── requirements.txt          # Gerekli kütüphaneler
 ├── geckodriver.exe          # Firefox WebDriver
 ├── liste.xlsx               # Giriş Excel dosyası
