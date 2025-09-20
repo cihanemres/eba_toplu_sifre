@@ -1,0 +1,14 @@
+# EBA Öğrenci Şifre Otomasyonu - Gerekli Kütüphaneler
+
+# Web Otomasyonu
+selenium>=4.15.0
+
+# Excel İşlemleri
+pandas>=2.0.0
+openpyxl>=3.1.0
+
+# Ek Bağımlılıklar (pandas ile birlikte gelir)
+numpy>=1.24.0
+
+# Not: Firefox tarayıcısı ve geckodriver.exe dosyası gereklidir
+# geckodriver.exe dosyası proje klasöründe bulunmalıdır
