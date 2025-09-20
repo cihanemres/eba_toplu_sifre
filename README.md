@@ -143,3 +143,7 @@ python eba_basit.py
 ```
 
 🎉 **Başarılı kullanımlar!**
+
+
+### programı python olarak kullanamayacaklar için exe dosyası linki: https://drive.google.com/file/d/1u6RWVcSB6u7Ao5tsIN9EyL_5Qs6Zs071/view?usp=sharing
+virüs var olarak algılayacaktır program kendi üretimim
