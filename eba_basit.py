@@ -14,11 +14,13 @@ class main():
     def __init__(self):
 
         # Excel dosyasını oku
-        self.xlsxFileName = input("Lütfen xlsx dosyasının adını giriniz> ")
+        self.xlsxFileName = input("Lütfen xlsx dosyasının adını giriniz(liste.xlsx dosyasının çalışmasını isterseniz sadece enter basın)> ")
         try:
             # Önce sheet adlarını kontrol et
             if self.xlsxFileName[-5:] == ".xlsx":
                 self.xlsx = pd.ExcelFile(f"{self.xlsxFileName}")
+            elif self.xlsxFileName == "":
+                self.xlsx = pd.ExcelFile(f"liste.xlsx")
             else:
                 self.xlsx = pd.ExcelFile(f"{self.xlsxFileName}.xlsx")
 
